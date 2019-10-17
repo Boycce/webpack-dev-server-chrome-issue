@@ -1,7 +1,6 @@
 ## Webpack-dev-server / Chrome issue
 
-When using `webpack-dev-server` with `writeToDisk` set to true, Chrome seems to lock up for 5-10 seconds when DevTools is open. The lock duration 
-increases with the bundle size which can become problematic when working on applications
+When using `webpack-dev-server` with `writeToDisk` set to true, Chrome seems to lock up for 5-10 seconds when resaving files with an error. The lock duration increases with the bundle size which can become problematic when working on applications
 
 ## Steps to reproduce:
 
