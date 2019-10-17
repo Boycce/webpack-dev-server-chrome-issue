@@ -1,0 +1,19 @@
+{
+  "name": "webpack-dev-server-chrome-issue",
+  "author": "Ricky Boyce <boycce@gmail.com>",
+  "description": "",
+  "version": "0.1.0",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "node index-updater.js & webpack-dev-server --progress"
+  },
+  "dependencies": {
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.1"
+  }
+}
